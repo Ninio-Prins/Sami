@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+
+<!-- metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Sami Cushcagua">
+    <meta name="description" content="Portafolio de desarollo">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- inportante en la pantalla q se va aver en cada pantalla-->
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- titulo de la pesaña -->
+    <title>Sami Cushcagua | desarollo web front-end</title>
+    <!-- Favico = icono alado de la pesaña de la pagina   Rel--- quiere desir relacion type image/x-icon dice q es el icono de la pesanian href la referencia imagen -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- typo de letra de google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">   <!-- link para iconos bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+<!-- barra de navegacion -->
+<nav class="navbar navbar-expand-md ">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"> <!--logo de la empresa-->
+        <img src="imagenes/icono.png" width="50" alt="logo de menu">
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        
+
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">About me</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos-recientes">Proyectos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios">Testimonials</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacts</a>
+          </li>
+
+        </ul>
+        
+      </div>
+
+      <div class="dropdown">
+        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" >
+            <img src="imagenes/belgium-flag-icon.svg" width="20" alt="lenguaje">
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/Index_EN.html">EN</a></li>
+            <li><a class="dropdown-item" href="/Index_NL.html">NL</a></li>
+            <li><a class="dropdown-item" href="/Index_FR.html">FR</a></li>
+            <li><a class="dropdown-item" href="/Index.html">ES</a></li>
+        </ul>
+      </div>
+
+    </div>
+</nav>
+
+<!-- Seccion Hero -->
+<section class="hero align-items-stretch">
+    <div class="hero-pricipal" d-flex flex-column justify-content-center align-items-center>
+        <img class="hero-imagen-desarollador" src="imagenes/NP.png" alt="Foto de Sami">
+        <h1> Hola Soy Sami</h1>
+        <h2>Desarrollo sitios web y escribo articulos sobre ingenieria</h2>
+    </div>
+
+    <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid"  src="imagenes/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React">
+
+    </div>
+</section>
+
+<!-- sobre mi -->
+<section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+        <h2 class="seccion-titulo ">Conoce a Np</h2>
+        <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor neque ex, at ultricies ipsum feugiat eget. Maecenas bibendum laoreet eros non tincidunt. Aliquam lorem diam, pharetra nec porta non, fringilla eu metus. Integer ac leo lorem. Mauris rhoncus sem at rhoncus bibendum. Praesent id molestie justo. Phasellus et fermentum ex, eget porta lorem. Nam vitae sapien vitae sem volutpat ullamcorper. Suspendisse bibendum semper mauris, eu fermentum diam aliquam quis. Nullam maximus nunc id sapien sollicitudin, rhoncus auctor dui pretium. Ut at malesuada nibh, sit amet blandit arcu. Vestibulum mollis lectus vehicula luctus varius.</p>
+    </div>
+</section>
+
+<!-- Experiencia -->
+<section class="experiencia seccion-clara">
+    <div class="container text-center">
+        <div class="row">
+            <!-- desarrollo web -->
+            <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Desarollo web</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ect rhoncus bibendum. Praesent id molestie justo. Phasellus et fermentum ex, eget porta lorem..</p>
+                <div class="badges-contenedor">
+                    <span class="badge text-bg-primary">HTML</span>
+                    <span class="badge text-bg-primary">CSS</span>
+                    <span class="badge text-bg-primary">JavaScript</span>
+                    <span class="badge text-bg-primary">React</span>
+                </div>
+
+
+            </div>
+
+            <!-- Articulos -->
+          
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Articulos</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ect rhoncus bibendum. Praesent id molestie justo. Phasellus et fermentum ex, eget porta lorem..</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Escribir</span>
+                        <span class="badge text-bg-primary">Editar</span>
+                        <span class="badge text-bg-primary">Blogs</span>
+                        
+                    </div>
+    
+    
+                </div>
+           
+
+            <!-- Estudiante -->
+            <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Estudiante</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ect rhoncus bibendum. Praesent id molestie justo. Phasellus et fermentum ex, eget porta lorem..</p>
+                <div class="badges-contenedor">
+                    <span class="badge text-bg-primary">Freecodecamp</span>
+                    <span class="badge text-bg-primary">Desarrollo Web</span>
+                    <span class="badge text-bg-primary">Python</span>
+                    
+                </div>
+
+
+            </div>
+
+    </div>
+</section>
+
+<!-- Proyectos -->
+<section id="proyectos-recientes" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Mis Proyectos recientes</h2>
+    <h3 class="seccion-descripcion">Estos son algunos proyectos que realize recientemente</h3>
+
+    <!-- galeria de proyectos -->
+    <div class="container text-center proyectos-contenedor">
+        <div class="row">
+
+            <!-- proyecto1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="imagenes/img1.png" alt="Proyecto1">
+                    <div class="overlay">
+                        <p>Proyecto 1</p>
+                        <div class="iconos-contenedor">
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <!-- esto es importante por seguridad para q no aya problemas de seguridad al abrir la pestaña-->
+                                <i class="bi bi-github"></i>
+                            </a>
+
+                            <a href="https://www.facebook.com/?locale=es_LA" target="_blank" rel="noopener noreferrer"> <!--Target = _blank es abrir enlase en una nueva pestaña-->
+                                <i class="bi bi-laptop"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- proyecto2 -->
+             <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="imagenes/img2.png" alt="Proyecto1">
+                    <div class="overlay">
+                        <p>Proyecto 2</p>
+                        <div class="iconos-contenedor">
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <!-- esto es importante por seguridad para q no aya problemas de seguridad al abrir la pestaña-->
+                                <i class="bi bi-github"></i>
+                            </a>
+
+                            <a href="https://www.facebook.com/?locale=es_LA" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-laptop"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- proyecto3 -->
+             <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="imagenes/img3.png" alt="Proyecto1">
+                    <div class="overlay">
+                        <p>Proyecto 3</p>
+                        <div class="iconos-contenedor">
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <!-- esto es importante por seguridad para q no aya problemas de seguridad al abrir la pestaña-->
+                                <i class="bi bi-github"></i>
+                            </a>
+
+                            <a href="https://www.facebook.com/?locale=es_LA" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-laptop"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- proyecto4 -->
+             <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="imagenes/img4.png" alt="Proyecto1">
+                    <div class="overlay">
+                        <p>Proyecto 4</p>
+                        <div class="iconos-contenedor">
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <!-- esto es importante por seguridad para q no aya problemas de seguridad al abrir la pestaña-->
+                                <i class="bi bi-github"></i>
+                            </a>
+
+                            <a href="https://www.facebook.com/?locale=es_LA" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-laptop"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- proyecto5 -->
+             <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="imagenes/img5.png" alt="Proyecto1">
+                    <div class="overlay">
+                        <p>Proyecto 5</p>
+                        <div class="iconos-contenedor">
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <!-- esto es importante por seguridad para q no aya problemas de seguridad al abrir la pestaña-->
+                                <i class="bi bi-github"></i>
+                            </a>
+
+                            <a href="https://www.facebook.com/?locale=es_LA" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-laptop"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- proyecto6 -->
+             <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="imagenes/img6.png" alt="Proyecto1">
+                    <div class="overlay">
+                        <p>Proyecto 6</p>
+                        <div class="iconos-contenedor">
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <!-- esto es importante por seguridad para q no aya problemas de seguridad al abrir la pestaña-->
+                                <i class="bi bi-github"></i>
+                            </a>
+
+                            <a href="https://www.facebook.com/?locale=es_LA" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-laptop"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">
+    <button type="button" class="btn btn-info">
+        Proyectos nuevos 
+        <i class="bi bi-arrow-right-circle-fill"></i>
+    </a>
+</section>
+
+<!-- Articulos -->
+<section class="articulos justify-content-start">
+    <h2 class="seccion-titulo" >Articulos</h2>
+    <div class="card" >
+        <div class="card-header">
+          Mas recientes
+        </div>
+        <ul class="list-group list-group-flush">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" >
+                <li class="list-group-item">Enlace 1</li>
+
+            </a>
+
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" >
+                <li class="list-group-item">Enlace 2</li>
+
+            </a>
+
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" >
+                <li class="list-group-item">Enlace 3</li>
+
+            </a>
+
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" >
+                <li class="list-group-item">Enlace 4</li>
+
+            </a>
+
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" >
+                <li class="list-group-item">Enlace 5</li>
+
+            </a>
+
+          
+        </ul>
+      </div>
+
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">
+        <button type="button" class="btn btn-info">
+           Ver mas articulos
+            <i class="bi bi-arrow-right-circle-fill"></i>
+        </a>
+
+</section>
+
+
+<!-- Testimonios -->
+<section id="testimonios" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo">Testimonio</h2>
+    <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes</h3>
+
+    <!-- Carrusel -->
+    <div id="testimonios-carrusel" class="carousel carrousel-dark slide" data-bs-ride="carousel"> <!--variable carussel-->
+        <div class="carousel-inner">
+          <div class="carousel-item active"> <!--el active quiere desir q es esa la imagen primera-->
+            <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.svg" src="foto cliente 1">
+                <p class="testimonio-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium provident nam quaerat iste quo quas ipsum architecto sunt? Dolorem autem vitae </p>
+                <div class="testimonio-info">
+                    <p class="cliente">Pedro</p>
+                    <p class="cargo">Lavandero de proyectos en desarrollo web</p>
+                </div>
+
+            </div>
+
+
+
+
+
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.svg" src="foto cliente 1">
+                <p class="testimonio-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium provident nam quaerat iste quo quas ipsum architecto sunt? Dolorem autem vitae </p>
+                <div class="testimonio-info">
+                    <p class="cliente">Maria</p>
+                    <p class="cargo">Gerente de proyectos en desarrollo web</p>
+                </div>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg" src="foto cliente 1">
+                <p class="testimonio-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium provident nam quaerat iste quo quas ipsum architecto sunt? Dolorem autem vitae </p>
+                <div class="testimonio-info">
+                    <p class="cliente">Silas</p>
+                    <p class="cargo">CEO de proyectos en desarrollo web</p>
+                </div>
+
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+</section>
+
+<!-- contacto -->
+
+<section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+            <div class="row">
+                <div class="col-12 col-md-4 seccion-titulo hablemos">
+                    Hablemos
+                </div>
+                <div class="col-12 col-md-4 descripcion">
+                    Contactame para iniciar tu proyecto de desarrollo web y hare que tus suenio se cumpla
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="mailto:TuMail@micorreo.com">
+                        <button type="button">
+                            Contacto
+                            <i class="bi bi-envelope-check"></i>
+                        </button>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+    </div>
+
+
+</section>
+
+
+<!-- pie de pagina (footer) -->
+<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="logo portafolio">
+    <p class="footer-texto texto-center">Aprendo y creo todos los dias. <br>Creesmos un proyecto juntos</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center"> <!--flex-wrap es una opcion de bootstrap q êrmite q el icono se mueva dependien de el tamanio del dispocitivo-->
+        <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-twitter-x"></i>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+        </a>
+        <a href="https://es.linkedin.com/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:micoreo@micorreo.com" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-envelope"></i>
+        </a>
+
+
+    </div>
+    <div class="derechos-de-autor">Creado por Sami Cushcagua (2023) &#169; </div>
+
+</footer>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+
+<footer>
+
+
+</footer>
+</html>
