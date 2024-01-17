@@ -14,13 +14,14 @@
     <!-- CSS -->
     <link href="style.css" rel="stylesheet">
     <!-- titulo de la pesaña -->
-    <title>Sami Cushcagua | desarollo web front-end</title>
+    <title>Sami Cushcagua | Desarollo web front-end</title>
     <!-- Favico = icono alado de la pesaña de la pagina   Rel--- quiere desir relacion type image/x-icon dice q es el icono de la pesanian href la referencia imagen -->
     <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
     <!-- typo de letra de google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">   <!-- link para iconos bootstrap -->
+ 
+    <link href="https://fonts.googleapis.com/css2?family=Carattere&family=Quicksand:wght@500&family=Rajdhani&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">  <!-- link para iconos bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 </head>
 <body>
@@ -31,7 +32,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#"> <!--logo de la empresa-->
-        <img src="imagenes/icono.svg" width="30" alt="logo de menu">
+        <img src="imagenes/icono.svg" width="40" alt="logo de menu">
       </a>
 
       <div class="collapse navbar-collapse" id="navbar-toggler">
@@ -39,19 +40,19 @@
 
         <ul class="navbar-nav d-flex justify-content-center align-items-center">
           <li class="nav-item">
-            <a class="nav-link" href="#sobre-mi">Sobre mi</a>
+            <a class="nav-link" href="#sobre-mi">Over mij</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#proyectos-recientes">Proyectos</a>
+            <a class="nav-link" href="#proyectos-recientes">Projecten</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#testimonios">Testimonios</a>
+            <a class="nav-link" href="#testimonios">Getuigenissen</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contactos</a>
+            <a class="nav-link" href="#contacto">Contacten</a>
           </li>
 
         </ul>
@@ -74,11 +75,75 @@
     </div>
 </nav>
 
+
+<!-- Seccion banner hero -->
+<section class="sami">
+    <div class="container rose d-flex justify-content-center align-items-center">
+
+    
+
+          
+            <div id="carouselExampleIndicators" class="carousel slide carousel-dark azul carousel-fade">
+              
+                <div class="carousel-indicators indicadores-carusel">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                
+                
+
+                        <div class="carousel-inner rojo ">
+                           
+
+
+                                <div class="carousel-item active verde  " >
+                                    <div class="cafe container">
+                                        <img class="amarillo"  src="imagenes/banner1.png" class="banner-imagen " alt="...">
+                                    </div>
+                                </div>
+
+                       
+
+                                <div class="carousel-item  verde ">
+                                    <div class="cafe  container">
+                                        <img class="amarillo" src="imagenes/banner2.png" class="banner-imagen" alt="...">
+                                    </div> 
+                                </div>
+
+                             
+
+                                <div class="carousel-item  verde">
+                                    <div class=" cafe  container ">
+                                        <img class="amarillo"  src="imagenes/banner1.png" class="banner-imagen" alt="...">
+                                    </div>
+
+                                </div>
+        
+                        </div>
+
+                            <button class="carousel-control-prev botones1" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            
+                            </button>
+                            <button class="carousel-control-next botones2" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+
+            </div>
+
+    
+    
+    </div>
+</section>
+
 <!-- Seccion Hero -->
 <section class="hero align-items-stretch">
     <div class="hero-pricipal" d-flex flex-column justify-content-center align-items-center>
-        <img class="hero-imagen-desarollador" src="imagenes/NP.png" alt="Foto de Sami">
-        <h1> Hallo mij naam is Sami</h1>
+        <img class="hero-imagen-desarollador" src="imagenes/foto_perfil.png" alt="Foto de Sami">
+        <h1> Hallo, ik ben Sami</h1>
         <h2>Ik ontwikkel websites en schrijf artikelen over techniek</h2>
     </div>
 
@@ -91,8 +156,17 @@
 <!-- sobre mi -->
 <section id="sobre-mi" class="sobre-mi seccion-oscura">
     <div class="contenedor">
-        <h2 class="seccion-titulo ">Maak kennis met Sami cushcagua</h2>
-        <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor neque ex, at ultricies ipsum feugiat eget. Maecenas bibendum laoreet eros non tincidunt. Aliquam lorem diam, pharetra nec porta non, fringilla eu metus. Integer ac leo lorem. Mauris rhoncus sem at rhoncus bibendum. Praesent id molestie justo. Phasellus et fermentum ex, eget porta lorem. Nam vitae sapien vitae sem volutpat ullamcorper. Suspendisse bibendum semper mauris, eu fermentum diam aliquam quis. Nullam maximus nunc id sapien sollicitudin, rhoncus auctor dui pretium. Ut at malesuada nibh, sit amet blandit arcu. Vestibulum mollis lectus vehicula luctus varius.</p>
+        <h2 class="seccion-titulo ">Sami Cushcagua</h2>
+        <p class="seccion-texto">
+
+            "Ik ben afgestudeerd als mechatronisch industrieel ingenieur aan de VUB en heb een passie voor leren en innovatie. 
+            Als informaticastudent combineer ik mijn technische kennis met mijn vaardigheid om effectieve digitale oplossingen te bouwen. 
+            Mijn specialisatie ligt in het ontwikkelen van op maat gemaakte websites voor een breed scala aan bedrijven, van kapsalons en bakkerijen tot garages en restaurants.
+             Mijn benadering gaat verder dan alleen programmeren; 
+             ik streef ernaar om de unieke behoeften van elke klant te begrijpen, 
+             zodat ik online ervaringen kan creëren die opvallen en resultaten opleveren. 
+             Als je op zoek bent naar een digitale aanwezigheid die de essentie van jouw bedrijf weerspiegelt, 
+            ben ik hier om die visie werkelijkheid te maken."</p>
     </div>
 </section>
 
@@ -103,13 +177,13 @@
             <!-- desarrollo web -->
             <div class="columna col-12 col-md-4">
                 <i class="bi bi-laptop"></i>
-                <p class="experiencia-titulo">Webontwikkeling</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ect rhoncus bibendum. Praesent id molestie justo. Phasellus et fermentum ex, eget porta lorem..</p>
+                <p class="experiencia-titulo">Webontwikkeling </p>
+                <p class="seccion-texto">"Ik ontwikkel websites met behulp van HTML, CSS, JavaScript en React. Mijn focus ligt op het creëren van visueel aantrekkelijke en functionele interfaces, waarbij digitale oplossingen worden afgestemd op elk project."</p>
                 <div class="badges-contenedor">
-                    <span class="badge text-bg-primary">HTML</span>
-                    <span class="badge text-bg-primary">CSS</span>
-                    <span class="badge text-bg-primary">JavaScript</span>
-                    <span class="badge text-bg-primary">React</span>
+                    <span class="badge text-bg-secondary">HTML</span>
+                    <span class="badge text-bg-secondary">CSS</span>
+                    <span class="badge text-bg-secondary">JavaScript</span>
+                    <span class="badge text-bg-secondary">React</span>
                 </div>
 
 
@@ -119,12 +193,12 @@
           
                 <div class="columna col-12 col-md-4">
                     <i class="bi bi-laptop"></i>
-                    <p class="experiencia-titulo">Artikels</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ect rhoncus bibendum. Praesent id molestie justo. Phasellus et fermentum ex, eget porta lorem..</p>
+                    <p class="experiencia-titulo"> Artikelen</p>
+                    <p class="seccion-texto">"Ik ben gepassioneerd door techniek en schrijf graag artikelen over technologie, waarbij ik de innovaties en vooruitgangen onderzoek die onze wereld naar de toekomst leiden."</p>
                     <div class="badges-contenedor">
-                        <span class="badge text-bg-primary">Escribir</span>
-                        <span class="badge text-bg-primary">Editar</span>
-                        <span class="badge text-bg-primary">Blogs</span>
+                        <span class="badge text-bg-secondary">Schrijven</span>
+                        <span class="badge text-bg-secondary">Bewerken</span>
+                        <span class="badge text-bg-secondary">Blogs</span>
                         
                     </div>
     
@@ -136,11 +210,11 @@
             <div class="columna col-12 col-md-4">
                 <i class="bi bi-laptop"></i>
                 <p class="experiencia-titulo">Student</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ect rhoncus bibendum. Praesent id molestie justo. Phasellus et fermentum ex, eget porta lorem..</p>
+                <p class="seccion-texto">"Ik heb mijn master in Industrieel Ingenieurswetenschappen afgerond en ben opnieuw begonnen met studeren om me te specialiseren in Informatietechnologie (IT), waarbij ik nieuwe facetten ontdek die mijn technische kennis combineren met de laatste trends op het gebied van informatica."</p>
                 <div class="badges-contenedor">
-                    <span class="badge text-bg-primary">Freecodecamp</span>
-                    <span class="badge text-bg-primary">Desarrollo Web</span>
-                    <span class="badge text-bg-primary">Python</span>
+                    <span class="badge text-bg-secondary">Freecodecamp</span>
+                    <span class="badge text-bg-secondary">Webontwikkeling</span>
+                    <span class="badge text-bg-secondary">Python</span>
                     
                 </div>
 
@@ -153,7 +227,7 @@
 <!-- Proyectos -->
 <section id="proyectos-recientes" class="proyectos-recientes seccion-clara d-flex flex-column">
     <h2 class="seccion-titulo texto-negro">Mijn recente projecten</h2>
-    <h3 class="seccion-descripcion">Dit zijn enkele projecten die ik onlangs heb afgerond</h3>
+    <h3 class="seccion-descripcion">Hier zijn enkele projecten die ik recentelijk heb voltooid</h3>
 
     <!-- galeria de proyectos -->
     <div class="container text-center proyectos-contenedor">
@@ -270,41 +344,42 @@
         </div> 
     </div>
     <a href="https://github.com/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">
-    <button type="button" class="btn btn-info">
-        Nieuwe projecten
+    <button type="button" class="btn btn-secondary">
+        Meer projecten
         <i class="bi bi-arrow-right-circle-fill"></i>
+    </button>
     </a>
 </section>
 
 <!-- Articulos -->
 <section class="articulos justify-content-start">
-    <h2 class="seccion-titulo" >Artikels</h2>
+    <h2 class="seccion-titulo" >Artikelen</h2>
     <div class="card" >
         <div class="card-header">
-          Meest recente
+            Meest recente
         </div>
         <ul class="list-group list-group-flush">
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" >
+            <a href="https://github.com/" style="text-decoration:none" target="_blank" rel="noopener noreferrer" >
                 <li class="list-group-item">Link 1</li>
 
             </a>
 
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" >
+            <a href="https://github.com/" style="text-decoration:none" target="_blank" rel="noopener noreferrer" >
                 <li class="list-group-item">Link 2</li>
 
             </a>
 
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" >
+            <a href="https://github.com/" style="text-decoration:none" target="_blank" rel="noopener noreferrer" >
                 <li class="list-group-item">Link 3</li>
 
             </a>
 
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" >
+            <a href="https://github.com/" style="text-decoration:none" target="_blank" rel="noopener noreferrer" >
                 <li class="list-group-item">Link 4</li>
 
             </a>
 
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" >
+            <a href="https://github.com/" style="text-decoration:none" target="_blank" rel="noopener noreferrer" >
                 <li class="list-group-item">Link 5</li>
 
             </a>
@@ -314,9 +389,11 @@
       </div>
 
       <a href="https://github.com/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">
-        <button type="button" class="btn btn-info">
-            Zie meer artikelen
+        <button type="button" class="btn btn-secondary">
+           Ver mas articulos hollaaaaa
             <i class="bi bi-arrow-right-circle-fill"></i>
+
+        </button>
         </a>
 
 </section>
@@ -324,19 +401,19 @@
 
 <!-- Testimonios -->
 <section id="testimonios" class="testimonios seccion-clara">
-    <h2 class="seccion-titulo">Testimonio</h2>
-    <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes</h3>
+    <h2 class="seccion-titulo">Getuigenis</h2>
+    <h3 class="seccion-descripcion">Hier zijn enkele getuigenissen van mijn klanten</h3>
 
     <!-- Carrusel -->
-    <div id="testimonios-carrusel" class="carousel carrousel-dark slide" data-bs-ride="carousel"> <!--variable carussel-->
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel"> <!--variable carussel-->
         <div class="carousel-inner">
           <div class="carousel-item active"> <!--el active quiere desir q es esa la imagen primera-->
             <div class="container">
-                <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.svg" src="foto cliente 1">
-                <p class="testimonio-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium provident nam quaerat iste quo quas ipsum architecto sunt? Dolorem autem vitae </p>
+                <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.svg" alt="foto cliente 1">
+                <p class="testimonio-texto">"Sami is een uitstekende webontwikkelaar. Zijn vermogen om op maat gemaakte websites te creëren is indrukwekkend. Hij levert altijd projecten op tijd en overtreft de verwachtingen. Zijn oog voor detail en klantgerichte aanpak maken samenwerken met hem een uitstekende ervaring. Ik beveel Sami ten zeerste aan voor elk webontwikkelingsproject!"</p>
                 <div class="testimonio-info">
-                    <p class="cliente">Pedro</p>
-                    <p class="cargo">Lavandero de proyectos en desarrollo web</p>
+                    <p class="cliente">Yann</p>
+                    <p class="cargo">Freelance webontwikkelingsprojecten</p>
                 </div>
 
             </div>
@@ -348,22 +425,22 @@
           </div>
           <div class="carousel-item">
             <div class="container">
-                <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.svg" src="foto cliente 1">
-                <p class="testimonio-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium provident nam quaerat iste quo quas ipsum architecto sunt? Dolorem autem vitae </p>
+                <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.svg" alt="foto cliente 1">
+                <p class="testimonio-texto">"Sami is een onschatbare aanwinst voor ons webontwikkelingsteam bij Bedrijf X. Zijn vaardigheid en creativiteit in het ontwerpen en ontwikkelen van websites zijn uitzonderlijk. Hij voldoet consistent aan deadlines en overtreft onze verwachtingen. Zijn nauwgezette en professionele aanpak heeft de kwaliteit van onze projecten verhoogd. Ik beveel Sami ten zeerste aan voor elk webontwikkelingsproject!"</p>
                 <div class="testimonio-info">
-                    <p class="cliente">Maria</p>
-                    <p class="cargo">Gerente de proyectos en desarrollo web</p>
+                    <p class="cliente">Sofia</p>
+                    <p class="cargo">Projectmanager in webontwikkeling</p>
                 </div>
 
             </div>
           </div>
           <div class="carousel-item">
             <div class="container">
-                <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg" src="foto cliente 1">
-                <p class="testimonio-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium provident nam quaerat iste quo quas ipsum architecto sunt? Dolorem autem vitae </p>
+                <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg" alt="foto cliente 1">
+                <p class="testimonio-texto">"Sami heeft bewezen een uitzonderlijke webontwikkelaar te zijn in ons team bij Bedrijf X. Zijn vermogen om onze ideeën te vertalen naar functionele en visueel aantrekkelijke websites is van onschatbare waarde gebleken. Hij komt altijd zijn deadlines na, en zijn oog voor detail is voorbeeldig. Zijn werk heeft onze online aanwezigheid aanzienlijk verbeterd. Ik beveel Sami ten zeerste aan voor hoogwaardige webontwikkelingsprojecten."</p>
                 <div class="testimonio-info">
-                    <p class="cliente">Silas</p>
-                    <p class="cargo">CEO de proyectos en desarrollo web</p>
+                    <p class="cliente">Lucas</p>
+                    <p class="cargo">CEO van webontwikkelingsprojecten</p>
                 </div>
 
             </div>
@@ -388,15 +465,15 @@
         <div class="container text-center rectangulo d-flex justify-content-evenly">
             <div class="row">
                 <div class="col-12 col-md-4 seccion-titulo hablemos">
-                    Hablemos
+                    Let's talk
                 </div>
                 <div class="col-12 col-md-4 descripcion">
-                    Contactame para iniciar tu proyecto de desarrollo web y hare que tus suenio se cumpla
+                    Neem contact met me op om je webontwikkelingsproject te starten, en ik zal je dromen laten uitkomen
                 </div>
                 <div class="col-12 col-md-4">
                     <a href="mailto:TuMail@micorreo.com">
                         <button type="button">
-                            Contacto
+                            Contact
                             <i class="bi bi-envelope-check"></i>
                         </button>
                     </a>
@@ -415,8 +492,8 @@
 
 <!-- pie de pagina (footer) -->
 <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
-    <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="logo portafolio">
-    <p class="footer-texto texto-center">Aprendo y creo todos los dias. <br>Creesmos un proyecto juntos</p>
+    <img class="footer-logo" src="imagenes/leon.svg" alt="logo portafolio">
+    <p class="footer-texto texto-center pie">Ik leer en creëer elke dag. <br>Laten we samen een project maken</br></p>
     <div class="iconos-redes-sociales d-flex flex-wrap align-items-center"> <!--flex-wrap es una opcion de bootstrap q êrmite q el icono se mueva dependien de el tamanio del dispocitivo-->
         <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
             <i class="bi bi-twitter-x"></i>
@@ -436,7 +513,7 @@
 
 
     </div>
-    <div class="derechos-de-autor">Creado por Sami Cushcagua (2023) &#169; </div>
+    <div class="derechos-de-autor">Gemaakt door Sami Cushcagua (2023) &#169; </div>
 
 </footer>
 
