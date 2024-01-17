@@ -1,4 +1,5 @@
-/* barra de navegacion */
+
+        /* barra de navegacion */
 .navbar {
     padding: 2rem;
     background-color: white;
@@ -92,10 +93,12 @@ background-color: #e0e0e0ad;
 }
 
 
-.btn-info{
+.btn-secondary{
     font-size: 1.1rem;
     margin: 20;
     font-weight: bold;
+    color: black;
+    background-color: rgb(240, 240, 240);
     
 }
 
@@ -330,7 +333,7 @@ padding: 30px;
     max-width: 800px; /*genera q la seccion no sea mas grande q 600px*/
 }
 .testimonios .carousel-item{
-   height: 400px; /*genera q la imagenes no sean muy grande y les pone un limite*/
+   height: 600px; /*genera q la imagenes no sean muy grande y les pone un limite*/
 }
 
 .testimonios .carousel-item .container{
@@ -453,6 +456,9 @@ text-align: center;
 
 }
 
+
+
+
 /* Pie de pagina footer */
 
 footer{
@@ -464,12 +470,12 @@ footer{
     width: 80px;
     margin: 10px;
 }
-.footer-text{
+.footer-texto{
     font-size: 1.5rem;
     padding: 20px;
     margin-bottom: 30px;
     font-family: 'Rajdhani', sans-serif;
-    background-color: black;
+    color: black;
 }
 
 
@@ -485,6 +491,7 @@ footer{
    border: 2px solid black;
    border-radius: 50%;
    transition: all 0.2s;
+   color: greenyellow;
 }
 
 .iconos-redes-sociales i {
@@ -571,6 +578,5 @@ footer{
         
         }
             
-        
         
             
