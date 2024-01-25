@@ -275,8 +275,8 @@ position: relative;
 
  .articulo_camiseta .imagen_camiseta1:hover{
     transition: all 1s ease ; 
-    width: 250px;
-    height: 350px;
+    width: 220px;
+    height: 320px;
     border-radius: 25%;
 
     
